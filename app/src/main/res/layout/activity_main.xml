@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:src="@drawable/porgs_cropped"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/card_text1"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/card_text1"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/card_text_red"
+        android:textColor="@color/red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/card_text1"
+        android:layout_marginTop="20dp"
+        android:text="@string/card_text_red"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/card_text_comma"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/card_text_red"
+        android:layout_marginTop="20dp"
+        android:text="@string/comma"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/card_text2"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/card_text1"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/card_text2"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/card_text_blue"
+        android:textColor="@color/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/card_text2"
+        android:layout_below="@id/card_text1"
+        android:layout_marginTop="5dp"
+        android:text="@string/card_text_blue"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/card_text_period"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/card_text_blue"
+        android:layout_below="@id/card_text1"
+        android:layout_marginTop="5dp"
+        android:text="@string/period"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/card_text3"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:text="@string/card_text3"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/card_text4"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/card_text3"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/card_text4"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/card_text5"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/card_from"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/card_text5"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/card_me"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/my_name"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/card_from"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/card_me"
+        android:layout_marginRight="20dp"
+        android:text="@string/from_me"
+        android:textSize="24sp" />
+
+</RelativeLayout>
